@@ -1,0 +1,46 @@
+{   
+    "Immagini": [
+        {"Immagine": "Immagine.jpg"},
+        {"Immagine": "Immagine2.jpg"},
+        {"Immagine": "Fiippoverdi.jpg"}
+    ],
+
+    "Nomi": [
+        {"Nome": "Antonio"},
+        {"Nome": "Luigi"},
+        {"Nome": "Filippo"}
+    ],
+
+    "Cognomi": [
+        {"Cognome": "Rossi"},
+        {"Cognome": "Bianchi"},
+        {"Cognome": "Verdi"}
+    ],
+
+    "Eta": [
+        {"Eta": "16"},
+        {"Eta": "21"},
+        {"Indirizzo": "Via Milano"},
+        {"Indirizzo": "Via Varese"},
+        {"Indirizzo": "Via Monza"}
+    ],
+
+    "Citta": [
+        {"Citta": "Milano"},
+        {"Citta": "Novara"},
+        {"Citta": "Lainate"}
+    ],
+
+    "Telefoni": [
+        {"Telefono1": "6548585855"},
+        {"Telefono1": "8876876876", "Telefono2": "3787273278"},
+        {"Telefono1": "7827798999", "Telefono2": "7868876868"}
+    ],
+
+    "Sport": [
+        {"Sport1": "Calcio", "Sport2": "Ippica"},
+        {"Sport1": "Tennis", "Sport2": "Pallamano"},
+        {"Sport1": "Tennis", "Sport2": "Badminghton"}
+    ]
+    
+}
