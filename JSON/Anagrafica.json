@@ -1,8 +1,8 @@
 {
     "Immagini": [
-        {"Immagine": "Immagine.jpg"},
-        {"Immagine": "Immagine2.jpg"},
-        {"Immagine": "Fiippoverdi.jpg"}
+        {"Immagine": "giulia.jpg"},
+        {"Immagine": "regine.jpg"},
+        {"Immagine": "cristiana.jpg"}
     ],
     "Nomi": [
         {"Nome": "Giulia"},
@@ -35,8 +35,8 @@
         {"Telefono1": "0234567890", "Telefono2": "9987654321"}
     ],
     "Sport": [
-        {"Sport1": "Calcio", "Sport2": "Ippica"},
-        {"Sport1": "Tennis", "Sport2": "Pallamano"},
+        {"Sport1": "Calcio", "Sport2": "Tennis"},
+        {"Sport1": "Danza", "Sport2": "Pallavolo"},
         {"Sport1": "Judo", "Sport2": "Badminton"}
     ]
 }
