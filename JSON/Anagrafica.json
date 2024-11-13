@@ -35,7 +35,7 @@
         {"Telefono1": "0234567890", "Telefono2": "9987654321"}
     ],
     "Sport": [
-        {"Sport1": "Calcio", "Sport2": "Tennis"},
+        {"Sport1": "Tennis", "Sport2": "Calcio"},
         {"Sport1": "Danza", "Sport2": "Pallavolo"},
         {"Sport1": "Judo", "Sport2": "Badminton"}
     ]
