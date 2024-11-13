@@ -15,7 +15,7 @@ function caricaDati() {
 
 function mostraInfo(ogg) {
     var tabella = document.createElement("table");
-    var colonnaIndici = ["Immagine", "Nome", "Cognome", "Età", "Indirizzo", "Città", "Telefono 1", "Telefono 2", "Sport 1", "Sport 2"];
+    var colonnaIndici = ["Immagine", "Nome", "Cognome", "Eta", "Indirizzo", "Citta", "Telefono 1", "Telefono 2", "Sport1", "Sport 2"];
     var colonnaTit = document.createElement("tr");
     for(let i = 0; i < colonnaIndici.length; i++) {
         var righe = document.createElement("th");
@@ -36,16 +36,32 @@ function mostraInfo(ogg) {
         var rigaCitta = document.createElement("td");
         rigaCitta.appendChild(document.createTextNode(ogg.Citta[i].Citta));
         var rigaTelefono1 = document.createElement("td");
-        rigaTelefono1.appendChild(document.createTextNode(ogg.Telefoni[i].Telefono1 == undefined ? "" :  ogg.Telefoni[i].Telefono1));
+        if (ogg.Telefoni[i].Telefono1 !== undefined) {
+            telefono = ogg.Telefoni[i].Telefono1;
+        }
+        rigaTelefono1.textContent = telefono;
         var rigaTelefono2 = document.createElement("td");
-        rigaTelefono2.appendChild(document.createTextNode(ogg.Telefoni[i].Telefono2 == undefined ? "" : ogg.Telefoni[i].Telefono2));
+        if (ogg.Telefoni[i].Telefono2 !== undefined) {
+            telefono = ogg.Telefoni[i].Telefono2;
+        }
+        rigaTelefono2.textContent = telefono;
         var rigaSport1 = document.createElement("td");
-        rigaSport1.appendChild(document.createTextNode(ogg.Sport[i].Sport1 == undefined ? "" :  ogg.Sport[i].Sport1));
+        if (ogg.Sport[i].Sport1 !== undefined) {
+            sport = ogg.Sport[i].Sport1;
+        }
+        rigaSport1.textContent = sport;
         var rigaSport2 = document.createElement("td");
-        rigaSport2.appendChild(document.createTextNode(ogg.Sport[i].Sport2 == undefined ? "" : ogg.Sport[i].Sport2));
+        if (ogg.Sport[i].Sport2 !== undefined) {
+            sport = ogg.Sport[i].Sport2;
+        }
+        rigaSport2.textContent = sport;
         var img = document.createElement("td");
         let bottone = document.createElement("img");
-        bottone.src = ogg.Immagini[i].Immagine === undefined ? "" : ogg.Immagini[i].Immagine;
+        if (ogg.Immagini[i].Immagine !== undefined) {
+            bottone.src = ogg.Immagini[i].Immagine;
+        } else {
+            bottone.src = "";
+        }        
         bottone.classList.add("immagineProfilo")
         bottone.addEventListener("click", function() {
             console.log("Bottone premuto");
