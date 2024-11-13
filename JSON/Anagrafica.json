@@ -1,46 +1,42 @@
-{   
+{
     "Immagini": [
         {"Immagine": "Immagine.jpg"},
         {"Immagine": "Immagine2.jpg"},
         {"Immagine": "Fiippoverdi.jpg"}
     ],
-
     "Nomi": [
-        {"Nome": "Antonio"},
-        {"Nome": "Luigi"},
-        {"Nome": "Filippo"}
+        {"Nome": "Giulia"},
+        {"Nome": "Regine"},
+        {"Nome": "Cristiana"}
     ],
-
     "Cognomi": [
-        {"Cognome": "Rossi"},
-        {"Cognome": "Bianchi"},
-        {"Cognome": "Verdi"}
+        {"Cognome": "Marcuccetti"},
+        {"Cognome": "Archico"},
+        {"Cognome": "Galli"}
     ],
-
     "Eta": [
-        {"Eta": "16"},
-        {"Eta": "21"},
-        {"Indirizzo": "Via Milano"},
-        {"Indirizzo": "Via Varese"},
-        {"Indirizzo": "Via Monza"}
+        {"Eta": "18"},
+        {"Eta": "18"},
+        {"Eta": "18"}
     ],
-
+    "Indirizzi": [
+        {"Indirizzo": "Via Raffaello Sanzio 3"},
+        {"Indirizzo": "Via Raffaello Sanzio 4"},
+        {"Indirizzo": "Via Raffaello Sanzio 5"}
+    ],
     "Citta": [
-        {"Citta": "Milano"},
-        {"Citta": "Novara"},
-        {"Citta": "Lainate"}
+        {"Citta": "Lainate"},
+        {"Citta": "Baranzate"},
+        {"Citta": "Bareggio"}
     ],
-
     "Telefoni": [
-        {"Telefono1": "6548585855"},
-        {"Telefono1": "8876876876", "Telefono2": "3787273278"},
-        {"Telefono1": "7827798999", "Telefono2": "7868876868"}
+        {"Telefono1": "1234567890", "Telefono2": "0987654321"},
+        {"Telefono1": "1987654321", "Telefono2": "1987654321"},
+        {"Telefono1": "0234567890", "Telefono2": "9987654321"}
     ],
-
     "Sport": [
         {"Sport1": "Calcio", "Sport2": "Ippica"},
         {"Sport1": "Tennis", "Sport2": "Pallamano"},
-        {"Sport1": "Tennis", "Sport2": "Badminghton"}
+        {"Sport1": "Judo", "Sport2": "Badminton"}
     ]
-    
 }
