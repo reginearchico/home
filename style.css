@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'PrincipaleBold';
+    src: url('Comfortaa-Bold.ttf') format('truetype');
+}
+
+body {
+    font-family: 'PrincipaleBold', sans-serif;
+    background-color: #9191d9;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.pagina {
+    background: url('sfondo.png') no-repeat center center/cover;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.pagina h1 {
+    font-family: 'PrincipaleBold', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.pagina a {
+    background-color: #91d9d9;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.pagina a:hover {
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(255, 99, 71, 0.3);
+}
+
+.pagina ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .pagina {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .pagina h1, .pagina h2, .pagina h3 {
+        font-size: 1.2em;
+    }
+
+    .pagina a {
+        font-size: 18px;
+    }
+}
