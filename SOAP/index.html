@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Test SOAP</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form method="POST" action="do_action.php">
+            <label for="amount">Importo da convertire:</label>
+            <input type="number" name="amount" required />
+            <label for="currency">Seleziona la conversione desiderata:</label>
+            <select name="currency" required>
+                <option value="USD">Dollaro</option>
+                <option value="EUR">Euro</option>
+                <option value="GBP">Sterlina</option>
+                <option value="JPY">Yen</option>
+                <option value="AUD">Dollari Australiani</option>
+            </select>
+            <input type="submit" value="Converti" />
+        </form>
+    </body>
+</html>
