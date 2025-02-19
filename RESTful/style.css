@@ -47,3 +47,17 @@ table tr:hover {
     background-color: #ff80ab;
     color: white;
 }
+
+#backButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+#backButton img {
+    width: 100px;
+    height: 100px;
+}
