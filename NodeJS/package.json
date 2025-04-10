@@ -8,5 +8,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "A simple Node.js server responding with HTML"
+  "description": "Un semplice server Node.js che risponde all' HTML"
 }
