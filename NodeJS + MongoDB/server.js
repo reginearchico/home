@@ -8,7 +8,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Connessione a MongoDB
-mongoose.connect("mongodb+srv://Davi06_:DAVIDE06@cluster0.uoqsnx5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("mongodb+srv://reginearchico:regine@cluster0.uoqsnx5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     .then(() => console.log("Connesso a MongoDB"))
     .catch((err) => console.log("Errore nella connessione a MongoDB", err));
 
